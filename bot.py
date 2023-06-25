@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import random
 from joke import a,stirlitz,c
-bot = telebot.TeleBot("5688637604:AAHVPDci7bqsTWAz6p5hsM8-VphGBNZMi6o", parse_mode='HTML')
+bot = telebot.TeleBot("", parse_mode='HTML')
 
 @bot.message_handler(commands=['start'])
 
